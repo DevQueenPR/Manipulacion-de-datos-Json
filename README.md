@@ -3,6 +3,38 @@
 Este proyecto es un servidor Flask que gestiona **Usuarios** y **Productos** mediante una API REST. Proporciona rutas para obtener información sobre el sistema, crear usuarios y productos, y obtener listas de usuarios y productos almacenados en memoria.
 Se utilizó Flask, Python y Postman.
 
+# Propuesta de estructura de datos: 
+
+# Usuarios:
+
+nombre: El nombre del usuario.
+
+correo: Correo electrónico del usuario.
+
+# Productos:
+
+id: Identificador único del producto.
+
+nombre: Nombre del producto.
+
+descripcion: Una descripción breve del producto.
+
+precio: El precio del producto.
+
+# Formato JSON 
+
+  {
+    "nombre": "Juan Pérez",
+    "correo": "juan@example.com"
+  }
+
+
+{
+  "nombre": "Producto 3",
+  "precio": 200
+}
+
+
 ## Rutas
 
 # Get info 
